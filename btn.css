@@ -6,8 +6,8 @@
 
 /* Make the image responsive */
 .container img {
-  width: auto;
-  height: auto;
+  width: 50%;
+  height: 50%;
 }
 
 /* Style the button and place it in the middle of the container/image */
