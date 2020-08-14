@@ -1,17 +1,17 @@
 /* Container needed to position the button. Adjust the width as needed */
-.aboutbutton {
+.container {
   position: relative;
   width: 50%;
 }
 
 /* Make the image responsive */
-.aboutbutton img {
+.container img {
   width: 100%;
   height: auto;
 }
 
 /* Style the button and place it in the middle of the container/image */
-.aboutbutton .abtbtn {
+.container .btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -26,6 +26,6 @@
   border-radius: 5px;
 }
 
-.aboutbutton .abtbtn:hover {
+.container .btn:hover {
   background-color: black;
 }
