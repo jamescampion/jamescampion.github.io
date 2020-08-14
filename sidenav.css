@@ -34,3 +34,13 @@
   .sidenav {padding-top: 10px;}
   .sidenav a {font-size: 15px;}
 }
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 15px;
+}
