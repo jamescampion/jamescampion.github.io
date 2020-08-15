@@ -40,7 +40,7 @@ nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  float:right;
+  float:center;
   display:inline;
 }
 
@@ -48,8 +48,8 @@ nav  li {
     position:relative;
     display:inline-block;
     list-style-type: none;
-    font-family: "Open Sans", "Droid Sans", Helvetica, Arial, sans-serif;
-    color: #222;
+    font-family: "Garamond"
+    color:"royal blue";
     padding:0 1rem;
 }
 
