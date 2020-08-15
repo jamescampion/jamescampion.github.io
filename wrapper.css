@@ -7,17 +7,17 @@
 }
 
 header h1 {
-   line-height: 45px;
-   font-size: 2rem;
-   margin: 0;
-   display:inline;
+  line-height: 45px;
+  font-size: 2rem;
+  margin: 0;
+  display:inline;
 }
 nav {
-   padding-left: 0;
-   margin-bottom: 0;
-   list-style: none;
-   float:right;
-   display:inline;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  float:right;
+  display:inline;
 }
 
 nav  li {

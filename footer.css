@@ -1,14 +1,3 @@
-<style>
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: white;
-  color: black;
-  text-align: left;
-}
-
 #page-container {
   position: relative;
   min-height: 100vh;
@@ -23,4 +12,10 @@
   bottom: 0;
   width: 100%;
   height: 2.5rem;            /* Footer height */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: left;
 }
