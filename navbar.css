@@ -29,3 +29,6 @@ color: black;
 background-color: #4CAF50;
 color: white;
 }
+
+ul { text-align: center; }
+li { display: inline-block; } /* Don't float them */
