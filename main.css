@@ -60,27 +60,13 @@ nav li > a {
     padding: 10px 15px;
 }
 
-nav > li > a:hover,
-nav > li > a:focus {
-    text-decoration: none;
-    background-color: white;
-}
-
-a:link{
-  color:blue;
-}
-a:visited{
-  color:blue;
-}
-a:hover {
+nav > li > a:hover {
   background-color:black;
   mix-blend-mode: hard-light;
   color: red;
 }
-}
-a:focus{
-  color:red;
-}
-a:active{
-  color:blue;
+nav > li > a:focus {
+  background-color:black;
+  mix-blend-mode: hard-light;
+  color: red;
 }
