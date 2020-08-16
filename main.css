@@ -103,18 +103,3 @@ a:active{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
-@media screen and (max-width: 600px) {
-  .nav a, .nav-right {
-    float: none;
-    display: block;
-  }
-
-  .nav-centered a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  }
-}
