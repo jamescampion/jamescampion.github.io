@@ -42,6 +42,7 @@ nav {
   list-style: none;
   float:right;
   display:inline;
+  text-align: center;
 }
 
 nav  li {
@@ -50,12 +51,12 @@ nav  li {
     list-style-type: none;
     font-family: "Garamond"
     color:"royal blue";
-    padding:0 1rem;
+    padding:10px;
 }
 
 nav li > a {
     position: relative;
-    display: block;
+    display: inline-block;
     padding: 10px 15px;
 }
 
