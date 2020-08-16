@@ -65,3 +65,19 @@ nav > li > a:focus {
     text-decoration: none;
     background-color: white;
 }
+
+a:link{
+  color:blue;
+}
+a:visited{
+  color:blue;
+}
+a:hover{
+  color:navy;
+}
+a:focus{
+  color:navy;
+}
+a:active{
+  color:navy;
+}
