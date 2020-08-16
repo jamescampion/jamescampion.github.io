@@ -99,3 +99,19 @@ a {
     background-position: 0 100%;
   }
 }
+
+a:link{
+  color:blue;
+}
+a:visited{
+  color:blue;
+}
+a:hover{
+  color:red;
+}
+a:focus{
+  color:red;
+}
+a:active{
+  color:red;
+}
