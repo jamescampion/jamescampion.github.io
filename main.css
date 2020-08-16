@@ -63,7 +63,7 @@ nav li > a {
 nav > li > a:hover,
 nav > li > a:focus {
     text-decoration: none;
-    background-color: pink;
+    background-color: white;
 }
 
 a:link{
@@ -75,17 +75,12 @@ a:visited{
 a:hover {
   background-color:grey;
   mix-blend-mode: hard-light;
-  color: red;
+  color: navy;
 }
 }
 a:focus{
-  color:red;
+  color:blue;
 }
 a:active{
   color:blue;
-}
-
-.color:hover
-{
-        background:#53a7ea;
 }
