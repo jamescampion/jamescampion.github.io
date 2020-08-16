@@ -73,7 +73,7 @@ a:visited{
   color:blue;
 }
 a:hover {
-  background-color:black;
+  background-color:grey;
   mix-blend-mode: hard-light;
   color: red;
 }
@@ -83,4 +83,9 @@ a:focus{
 }
 a:active{
   color:blue;
+}
+
+.color:hover
+{
+        background:#53a7ea;
 }
