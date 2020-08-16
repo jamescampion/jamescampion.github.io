@@ -35,7 +35,6 @@ header h1 {
   line-height: 10px;
   font-size: 2rem;
   margin: 0;
-  display:inline;
   overflow: auto;
 }
 nav {
@@ -43,13 +42,11 @@ nav {
   margin-bottom: 0;
   list-style: none;
   float:right;
-  display:inline;
   text-align: center;
 }
 
 nav  li {
-    position:relative;
-    display:inline-block;
+    position:absolute;
     list-style-type: none;
     font-family: "Garamond"
     color:"royal blue";
@@ -57,8 +54,7 @@ nav  li {
 }
 
 nav li > a {
-    position: relative;
-    display: inline-block;
+    position: absolute;
     padding: 0px 0px;
 }
 
@@ -97,9 +93,9 @@ a:active{
 }
 
 .nav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
+  position: absolute
+  bottom: 0
   left: 50%;
+  float: none;
   transform: translate(-50%, -50%);
 }
