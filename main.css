@@ -72,9 +72,11 @@ a:link{
 a:visited{
   color:blue;
 }
-a:hover{
-  color:navy;
-  background-color: grey;
+a:hover {
+  background-color:white;
+  mix-blend-mode: hard-light;
+  color: purple;
+}
 }
 a:focus{
   color:navy;
