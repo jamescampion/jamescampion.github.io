@@ -88,10 +88,10 @@ a:active{
 
 .fa-twitter {
   background: #55ACEE;
-  color: white;
+  color: black;
 }
 .fa-twitter:hover {
-  background-color:grey;
+  background-color:red;
   mix-blend-mode: hard-light;
 }
 
