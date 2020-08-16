@@ -32,10 +32,11 @@ header {
     overflow:auto;
 }
 header h1 {
-  line-height: 20px;
+  line-height: 10px;
   font-size: 2rem;
   margin: 0;
   display:inline;
+  overflow: auto;
 }
 nav {
   padding-left: 0;
