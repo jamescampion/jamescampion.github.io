@@ -75,7 +75,7 @@ a:visited{
 a:hover {
   background-color:white;
   mix-blend-mode: hard-light;
-  color: purple;
+  color: blue;
 }
 }
 a:focus{
