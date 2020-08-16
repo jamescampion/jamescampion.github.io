@@ -32,8 +32,8 @@ header {
     overflow:auto;
 }
 header h1 {
-  line-height: 50px;
-  font-size: 5rem;
+  line-height: 20px;
+  font-size: 2rem;
   margin: 0;
   display:inline;
 }
