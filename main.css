@@ -75,11 +75,11 @@ a:visited{
 a:hover {
   background-color:black;
   mix-blend-mode: hard-light;
-  color: blue;
+  color: red;
 }
 }
 a:focus{
-  color:navy;
+  color:red;
 }
 a:active{
   color:blue;
