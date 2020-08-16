@@ -51,53 +51,19 @@ nav  li {
     list-style-type: none;
     font-family: "Garamond"
     color:"royal blue";
-    padding:0px;
+    padding:10px;
 }
 
 nav li > a {
     position: relative;
     display: inline-block;
-    padding: 0px 0px;
+    padding: 10px 15px;
 }
 
-nav > li > a:hover {
-  background-color:black;
-  mix-blend-mode: hard-light;
-  color: navy;
-}
+nav > li > a:hover,
 nav > li > a:focus {
-  background-color:grey;
-  mix-blend-mode: hard-light;
-  color: navy;
-}
-nav > li > a:visited {
-  background-color:white;
-  mix-blend-mode: hard-light;
-  color: blue;
-}
-nav > li > a:active {
-  background-color:white;
-  mix-blend-mode: hard-light;
-  color: blue;
-}
-a {
-  position: relative;
-  display: inline-block;
-  font-size: 2em;
-  font-weight: 800;
-  color: royalblue;
-  overflow: hidden;
-  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 275ms ease;
-  text-decoration: none; // text decorations are clipped in WebKit browsers
-  &:hover {
-    background-position: 0 100%;
-  }
+    text-decoration: none;
+    background-color: pink;
 }
 
 a:link{
@@ -106,12 +72,15 @@ a:link{
 a:visited{
   color:blue;
 }
-a:hover{
-  color:red;
+a:hover {
+  background-color:black;
+  mix-blend-mode: hard-light;
+  color: red;
+}
 }
 a:focus{
   color:red;
 }
 a:active{
-  color:red;
+  color:blue;
 }
