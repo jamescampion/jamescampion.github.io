@@ -38,6 +38,8 @@ header h1 {
   overflow: auto;
 }
 nav {
+  width:100%;
+  position:absolute;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -46,15 +48,13 @@ nav {
 }
 
 nav  li {
-    position:absolute;
     list-style-type: none;
-    font-family: "Garamond"
-    color:"royal blue";
+    font-family: "Comis Sans MS"
+    color:"royalblue";
     padding:0px;
 }
 
 nav li > a {
-    position: absolute;
     padding: 0px 0px;
 }
 
