@@ -73,7 +73,7 @@ a:visited{
   color:blue;
 }
 a:hover {
-  background-color:white;
+  background-color:black;
   mix-blend-mode: hard-light;
   color: blue;
 }
