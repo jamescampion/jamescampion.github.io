@@ -91,11 +91,3 @@ a:active{
   background-color:red;
   mix-blend-mode: hard-light;
 }
-
-.nav-centered a {
-  position: absolute
-  bottom: 0
-  left: 50%;
-  float: none;
-  transform: translate(-50%, -50%);
-}
