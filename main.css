@@ -86,16 +86,11 @@ a:active{
   color:blue;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 100%;
-  text-align: center;
-  text-decoration: none;
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
-
-/* Add a hover effect if you want */
-.fa:hover {
+.fa-twitter:hover {
   background-color:grey;
   mix-blend-mode: hard-light;
 }
