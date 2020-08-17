@@ -130,10 +130,10 @@ nav.sticky + nav.content {
   background-color:white;
   padding: 100px;
 }
-.textcontainer a {color:royalblue;}         /* Unvisited link  */
-.textcontainer a {color:royalblue;}  /* Visited link    */
-.textcontainer a {color:royalblue;}    /* Mouse over link */
-.textcontainer a {color:red;}  /* Selected link   */
+a {color:royalblue;}         /* Unvisited link  */
+a {color:royalblue;}  /* Visited link    */
+a {color:royalblue;}    /* Mouse over link */
+a {color:red;}  /* Selected link   */
 
 footer {
   position: relative;
