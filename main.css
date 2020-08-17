@@ -102,9 +102,9 @@ a:active{
 }
 
 .nav-centered a {
-  position: absolute
-  bottom: 0
-  left: 50%;
+  position: fixed;
+  top:50%;
+  left:50%;
   float: none;
   transform: translate(-50%, -50%);
 }
