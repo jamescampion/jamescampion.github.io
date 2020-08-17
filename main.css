@@ -10,6 +10,9 @@ content-wrap {
 nav {
     list-style: none;
     font-weight: bold;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
     margin-bottom: 10px;
     width: 100%;
     text-align: center;
@@ -17,6 +20,8 @@ nav {
     background-color:white;
     height:40px;
 }
+ul { text-align: center; }
+li { display: inline-block; } /* Don't float them */
 
 footer {
   position: absolute;
