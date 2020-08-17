@@ -20,8 +20,8 @@ ul {
      display: inline-block;
      width:100px;
      float:left;
-
  }
+
  ul > li > ul { display:none; }
  ul > li:hover > ul { display:block; }
  ul > li > ul { padding-left:10px; }
