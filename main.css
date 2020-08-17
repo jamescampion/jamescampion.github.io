@@ -15,15 +15,28 @@ ul {
      margin:0px 5px;
     display: inline-block;
     padding:0px;
- }
+    list-style: none;
+    padding: 0;
+    }
+
+nav > ul:after{
+    clear:both;
+    content:"";
+    display:block;
+}
+
+nav > ul > li {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+
  ul li {
-     display: inline-block;
 
  }
-
 
  ul li a {
-     color:royalblue;
+     color:black;
      background:white;
      padding:20px 20px;
      margin:0 auto;
@@ -41,7 +54,7 @@ ul {
      border: 0px solid #560E00;
  }
  ul li a:hover {
-     color:navy;
+     color:white;
      background:lightgrey;
      font-weight:bold;
      text-decoration:none;
@@ -53,7 +66,7 @@ ul {
      border: 0px solid #000000;
  }
  ul li a:active {
-     color:navy;
+     color:red;
      font-weight:bold;
      text-decoration:none;
      display:block;
@@ -63,6 +76,15 @@ ul {
      -moz-border-radius:5px;
      border: 0px solid #000000;
  }
+
+nav > ul > li > ul {
+    background-color:white;
+     display: none;
+  width:150px;
+  top:100%;
+  left:0;
+  position: absolute;
+}
 
  h1 li {
      display: inline-block;
