@@ -22,7 +22,7 @@ ul {
  ul li a {
      color:royalblue;
      background:white;
-     padding:100px 100px;
+     padding:50px 50px;
      margin:0 auto;
      font-weight:bold;
      font-size:10px;
@@ -86,7 +86,7 @@ ul {
 
 title {
     text-align:center;
-    font-size:50px;
+    font-size:10px;
     font-family:'Comic Sans MS', Arial, Helvetica, sans-serif;
     color:royalblue;
 }
