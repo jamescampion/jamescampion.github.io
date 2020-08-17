@@ -15,7 +15,6 @@ nav {
   display:inline;
   text-align:center;
 }
-
 nav  li {
     position:relative;
     display:inline-block;
@@ -24,7 +23,6 @@ nav  li {
     color:"royal blue";
     padding:0px;
 }
-
 nav li > a {
     position: relative;
     display: inline-block;
@@ -39,6 +37,16 @@ nav > li > a:hover {
 nav > li > a:focus{
   color:blue;
 }
+nav > li > a:link{
+  color:blue;
+}
+nav > li > a:visited{
+  color:blue;
+}
+nav > li > a:active{
+  color:blue;
+}
+
 footer {
   position: absolute;
   bottom: 0;
