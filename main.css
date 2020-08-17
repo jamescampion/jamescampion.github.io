@@ -13,6 +13,7 @@ header {
   top:0;
   margin-top:;
   background-color:white;
+  overflow:hidden;
 }
 
 nav {
@@ -114,6 +115,16 @@ nav.sticky {
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 nav.sticky + nav.content {
   padding-top: 102px;
+}
+
+.textcontainer {
+  height: 80%;
+    overflow: auto;
+    position: fixed;
+    top: 120px;
+    width: 100%;
+    margin: 0 auto;
+}
 }
 
 footer {
