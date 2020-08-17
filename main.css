@@ -13,12 +13,11 @@ nav {
 ul {
      list-style:none;
      margin:0px 5px;
-    display: inline-block;
-    padding:0px;
+     display: inline-block;
+     padding:0px;
  }
  ul li {
      display: inline-block;
-
  }
 
  ul li a {
@@ -110,13 +109,13 @@ footer {
 
 /* Style all font awesome icons */
 .fa {
-  padding: 0px;
+  padding:20px 20px;
   font-size: 15px;
-  width: 50px;
+  width:auto;
   text-align: center;
   text-decoration: none;
   background: #55ACEE;
   color: white;
-}
-
+  margin:0 auto;
+  height:20px;
 }
