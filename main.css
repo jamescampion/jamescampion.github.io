@@ -80,6 +80,50 @@ ul {
      width:100px;
      text-align:center;
  }
+ h1 li {
+     display: inline-block;
+ }
+ h1 li a {
+     color:royalblue;
+     background:white;
+     padding:10px 10px;
+     margin:0 auto;
+     font-weight:bold;
+     font-size:14px;
+     font-family:'COMIC SANS MS', Arial, Helvetica, sans-serif;
+     text-decoration:none;
+     display:block;
+     width:auto;
+     height:40px;
+     line-height:15px;
+     text-align:center;
+     -webkit-border-radius:5px;
+     -moz-border-radius:5px;
+     border: 0px solid #560E00;
+ }
+ h1 li a:hover {
+     color:navy;
+     background:lightgrey;
+     font-weight:bold;
+     text-decoration:none;
+     display:block;
+     width:auto;
+     text-align:center;
+     -webkit-border-radius:5px;
+     -moz-border-radius:5px;
+     border: 0px solid #000000;
+ }
+ h1 li a:active {
+     color:navy;
+     font-weight:bold;
+     text-decoration:none;
+     display:block;
+     width:auto;
+     text-align:center;
+     -webkit-border-radius:5px;
+     -moz-border-radius:5px;
+     border: 0px solid #000000;
+ }
 
 footer {
   position: absolute;
