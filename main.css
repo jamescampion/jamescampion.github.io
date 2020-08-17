@@ -104,6 +104,8 @@ footer {
 
 .fa-twitter {
   background: white;
+  padding:30px;
+  font-size:30px;
 }
 .fa-twitter:hover {
   background-color:white;
