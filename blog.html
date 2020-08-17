@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html style="background-color:white;">
 
+<title>James Campion — Blog</title>
+
   <head>
-
-    Nothing yet
-
+    <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
 
+  <body>
+   <div id="page-container">
+     <div id="content-wrap">
+       <div id="navigation">
+       <header>
+         <nav>
+             <ul><li> <a href="projects" style="text-decoration:none">PROJECTS</a> </li></ul>
+             <ul><li> <a href="blog" style="text-decoration:none">BLOG</a> </li></ul>
+             <ul><li><a href="favorites" class="dropdown">FAVORITE THINGS</a>
+             </li><li class="sublinks"> <a href="books">BOOKS</a>
+             <a href="podcasts">PODCASTS</a>
+             </li>
+         </ul>
+             <ul><li> <a href="inspiration" style="text-decoration:none">WEBSITE INSPIRATION</a> </li></ul>
+
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+             <ul><li><a href="https://twitter.com/CDisinterest" class ="fa fa-twitter" style="text-decoration:none"></a></li></ul>
+             <hr />
+           </nav>
+           <title>
+            <ul><li> <a href="https://jamescampion.dev">JAMES CAMPION</a></li></ul>
+          </title>
+
+         <script> // When the user scrolls down 50px from the top of the document, resize the header's font size
+          window.onscroll = function() {scrollFunction()};
+
+          function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+              document.getElementById("header").style.fontSize = "30px";
+            } else {
+              document.getElementById("header").style.fontSize = "90px";
+            }
+          }
+      </script>
+       </header>
+
+       <p style="color:black">Coming soon, hopefully.</p>
+
+     </div>
+     <footer id="footer">A Work in Progress by James Campion</footer>
+   </div>
+  </body>
 
 </html>
