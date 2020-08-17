@@ -7,60 +7,72 @@ content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
 
-header
-{
-    background: white;
-    width: 100%;
-    height: 110px;
-    padding-bottom: 10px;
-    position:fixed;
-    top: 0;
-    left: 50%;           /* Start at 50% of browser window */
-    margin-left: -325px; /* Go half of width to the left, centering the element */
-}
-
 nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  float:center;
-  display:inline;
-  text-align:center;
-  left:0;
+    text-align: center;
 }
-nav  li {
-    position:relative;
-    display:inline-block;
-    list-style-type: none;
-    font-family:"Comic Sans MS";
-    color:"royalblue";
-    padding:50px;
-}
-nav li > a {
-    position: relative;
+
+ul {
+     list-style:none;
+     margin:0px 5px;
     display: inline-block;
-    padding: 50px;
-}
-
-a:link{
-  color:blue;
-}
-a:visited{
-  color:blue;
-}
-a:hover {
-  background-color:#f2f2f2;
-  mix-blend-mode: hard-light;
-  color: navy;
-}
-}
-a:focus{
-  color:blue;
-}
-a:active{
-  color:blue;
-}
-
+    padding: 0;
+ }
+ ul li {
+     display: inline-block;
+ }
+ ul li a {
+     color:black;
+     background:white;
+     padding:0px 0px;
+     margin:0 auto;
+     font-weight:bold;
+     font-size:14px;
+     font-family:'Comic Sans MS', Arial, Helvetica, sans-serif;
+     text-decoration:none;
+     display:block;
+     width:auto;
+     height:40px;
+     line-height:15px;
+     text-align:center;
+     -webkit-border-radius:5px;
+     -moz-border-radius:5px;
+     border: 0px solid #560E00;
+ }
+ ul li a:hover {
+     color:navy;
+     background:lightgrey;
+     font-weight:bold;
+     text-decoration:none;
+     display:block;
+     width:auto;
+     text-align:center;
+     -webkit-border-radius:5px;
+     -moz-border-radius:5px;
+     border: 0px solid #000000;
+ }
+ ul li.sublinks a {
+     color:#000000;
+     background:#f6f6f6;
+     border-bottom:1px solid #cccccc;
+     font-weight:normal;
+     text-decoration:none;
+     display:block;
+     width:100px;
+     text-align:center;
+     margin-top:2px;
+ }
+ ul li.sublinks a:hover {
+     color:navy;
+     background:lightgrey;
+     font-weight:normal;
+     text-decoration:none;
+     display:block;
+     width:100px;
+     text-align:center;
+ }
+ ul li.sublinks {
+     display:none;
+ }
 footer {
   position: absolute;
   bottom: 0;
