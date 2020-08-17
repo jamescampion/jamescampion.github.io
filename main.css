@@ -60,26 +60,11 @@ ul {
      -moz-border-radius:5px;
      border: 0px solid #000000;
  }
- ul li.sublinks a {
-     color:#000000;
-     background:#f6f6f6;
-     border-bottom:1px solid #cccccc;
-     font-weight:normal;
-     text-decoration:none;
-     display:block;
-     width:100px;
-     text-align:center;
-     margin-top:2px;
- }
- ul li.sublinks a:hover {
-     color:navy;
-     background:lightgrey;
-     font-weight:normal;
-     text-decoration:none;
-     display:block;
-     width:100px;
-     text-align:center;
- }
+
+ ul > li > ul { display:none; }
+ ul > li:hover > ul { display:block; }
+ ul > li > ul { padding-left:10px; }
+ 
  h1 li {
      display: inline-block;
  }
