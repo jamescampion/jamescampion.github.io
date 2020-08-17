@@ -43,7 +43,7 @@ ul {
      margin:0 auto;
      font-weight:bold;
      font-size:20px;
-     font-family:'sans open', Arial, Helvetica, sans-serif;
+     font-family:"Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
      text-decoration:none;
      display:block;
      width:auto;
@@ -130,6 +130,10 @@ nav.sticky + nav.content {
   background-color:white;
   padding: 100px;
 }
+.textcontainer a {color:royalblue;}         /* Unvisited link  */
+.textcontainer a {color:royalblue;}  /* Visited link    */
+.textcontainer a {color:royalblue;}    /* Mouse over link */
+.textcontainer a {color:red;}  /* Selected link   */
 
 footer {
   position: relative;
@@ -152,7 +156,7 @@ footer {
  padding:0px 100px;
  font-weight:none;
  font-size:18px;
- font-family: "Times New Roman", Times, serif;
+ font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
  text-decoration:none;
 }
 
