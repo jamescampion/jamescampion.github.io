@@ -9,7 +9,6 @@ content-wrap {
 
 footer {
   position: absolute;
-  font-family: "Comis Sans MS";
   bottom: 0;
   width: 100%;
   height: 2.5rem;            /* Footer height */
@@ -23,7 +22,6 @@ footer {
 
 header {
     position:relative;
-    font-family: "Comis Sans MS";
     display:block;
     max-width:100%;
     height:100%;
@@ -35,31 +33,30 @@ header {
 }
 header h1 {
   line-height: 10px;
-  font-family: "Comis Sans MS";
   font-size: 2rem;
   margin: 0;
   overflow: auto;
 }
 nav {
-  width:100%;
-  font-family: "Comis Sans MS";
-  position:absolute;
+  width: 100%
+  position: absolute
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
   float:right;
   text-align: center;
-  display:inline-block;
 }
 
 nav  li {
+    position:absolute;
     list-style-type: none;
-    font-family: "Comis Sans MS"
-    color:"royalblue";
+    font-family: "Garamond"
+    color:"royal blue";
     padding:0px;
 }
 
 nav li > a {
+    position: absolute;
     padding: 0px 0px;
 }
 
@@ -95,4 +92,12 @@ a:active{
 .fa-twitter:hover {
   background-color:red;
   mix-blend-mode: hard-light;
+}
+
+.nav-centered a {
+  position: absolute
+  bottom: 0
+  left: 50%;
+  float: none;
+  transform: translate(-50%, -50%);
 }
