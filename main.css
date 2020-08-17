@@ -51,7 +51,7 @@ ul {
      border: 0px solid #000000;
  }
  ul li a:active {
-     color:red;
+     color:royalblue;
      font-weight:bold;
      text-decoration:none;
      display:block;
@@ -110,7 +110,8 @@ footer {
 /* Style all font awesome icons */
 .fa {
   padding:20px 20px;
-  font-size: 15px;
+  font-size:15px;
+  font-weight:bold;
   width:auto;
   text-align: center;
   text-decoration: none;
@@ -118,4 +119,8 @@ footer {
   color: white;
   margin:0 auto;
   height:20px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border: 0px solid #560E00;
+  display:block;
 }
