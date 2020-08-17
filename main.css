@@ -134,9 +134,15 @@ footer {
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  border-radius:50%;
+  height:2.5rem;
+  width:auto;
 }
 
 .fa-linkedin {
   background: #2867B2;
   color: white;
+  border-radius:50%;
+  height:2.5rem;
+  width:auto;
 }
