@@ -15,25 +15,12 @@ ul {
      margin:0px 5px;
     display: inline-block;
     padding:0px;
-    list-style: none;
-    padding: 0;
-    }
-
-nav > ul:after{
-    clear:both;
-    content:"";
-    display:block;
-}
-
-nav > ul > li {
-  float: left;
-  position: relative;
-  display: inline-block;
-}
-
+ }
  ul li {
+     display: inline-block;
 
  }
+
 
  ul li a {
      color:black;
@@ -77,14 +64,42 @@ nav > ul > li {
      border: 0px solid #000000;
  }
 
-nav > ul > li > ul {
-    background-color:white;
-     display: none;
-  width:150px;
-  top:100%;
-  left:0;
-  position: absolute;
-}
+ #dropdownmenu ul {
+   list-style: none;
+     padding: 0;
+ }
+
+ #dropdownmenu > ul:after{
+     clear:both;
+     content:"";
+     display:block;
+ }
+
+ #dropdownmenu > ul > li {
+   float: left;
+   position: relative;
+   border: 1px solid #CC55FF;
+ }
+
+ #dropdownmenu > ul > li > a {
+     text-decoration: none;
+     padding: 5px 10px;
+     display:block;
+     color: black;
+ }
+
+ #dropdownmenu > ul > li > a:hover {
+     background-color: lightgreen;
+ }
+
+ #dropdownmenu > ul > li > ul {
+     background-color:red;
+      display: none;
+   width:150px;
+   top:100%;
+   left:0;
+   position: absolute;
+ }
 
  h1 li {
      display: inline-block;
