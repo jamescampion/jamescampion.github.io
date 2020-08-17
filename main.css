@@ -24,6 +24,8 @@ header {
     position:fixed;
     display:block;
     max-width:100%;
+    top:50%;
+    left:50%;
     height:100%;
     margin:0 auto;
     padding:1rem 2rem;
@@ -65,6 +67,12 @@ nav > li > a:focus {
     text-decoration: none;
     background-color: white;
 }
+
+body {
+ height: 3000px;
+ top: 0;
+ position: relative;
+   }
 
 a:link{
   color:blue;
