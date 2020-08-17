@@ -18,6 +18,16 @@ footer {
   text-align:left;
 }
 
+header {
+    display:block;
+    top:0;
+    width:100%;
+    left:50%;
+    border-radius: 1em;
+    padding: 1em;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+}
 header h1 {
   line-height: 10px;
   font-size: 4rem;
