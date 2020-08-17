@@ -43,7 +43,7 @@ ul {
      margin:0 auto;
      font-weight:bold;
      font-size:20px;
-     font-family:"Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+     font-family:Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
      text-decoration:none;
      display:block;
      width:auto;
@@ -156,7 +156,7 @@ footer {
  padding:0px 100px;
  font-weight:none;
  font-size:18px;
- font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+ font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
  text-decoration:none;
 }
 
