@@ -5,6 +5,13 @@ page-container {
 content-wrap {
   overflow:auto;
   padding-bottom: 4rem;    /* Footer height */
+  margin-top:100px;
+}
+
+header {
+  position:sticky;
+  top:0;
+  margin-top:;
 }
 
 nav {
