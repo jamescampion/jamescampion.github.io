@@ -39,7 +39,7 @@ header h1 {
 }
 nav {
   width: 100%
-  position: absolute
+  position: fixed;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
