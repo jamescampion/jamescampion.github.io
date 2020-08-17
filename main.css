@@ -7,6 +7,17 @@ content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
 
+nav {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    display:inline;
+    background-color:white;
+    height:40px;
+}
+
 footer {
   position: absolute;
   bottom: 0;
