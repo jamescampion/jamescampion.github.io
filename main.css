@@ -14,7 +14,7 @@ ul {
      list-style:none;
      margin:0px 5px;
     display: inline-block;
-    padding:30px;
+    padding:0px;
  }
  ul li {
      display: inline-block;
@@ -22,10 +22,10 @@ ul {
  ul li a {
      color:royalblue;
      background:white;
-     padding:50px 50px;
+     padding:10px 10px;
      margin:0 auto;
      font-weight:bold;
-     font-size:10px;
+     font-size:30px;
      font-family:'sans open', Arial, Helvetica, sans-serif;
      text-decoration:none;
      display:block;
@@ -79,9 +79,6 @@ ul {
      display:block;
      width:100px;
      text-align:center;
- }
- ul li.sublinks {
-     display:none;
  }
 
 title {
