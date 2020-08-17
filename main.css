@@ -10,7 +10,6 @@ content-wrap {
 nav {
     text-align: center;
 }
-
 ul {
      list-style:none;
      margin:0px 5px;
@@ -21,12 +20,12 @@ ul {
      display: inline-block;
  }
  ul li a {
-     color:black;
+     color:royalblue;
      background:white;
-     padding:0px 0px;
+     padding:50px 50px;
      margin:0 auto;
      font-weight:bold;
-     font-size:14px;
+     font-size:30px;
      font-family:'Comic Sans MS', Arial, Helvetica, sans-serif;
      text-decoration:none;
      display:block;
@@ -73,6 +72,14 @@ ul {
  ul li.sublinks {
      display:none;
  }
+
+name {
+    text-align: center;
+    font-size:50px;
+    font-family:'Comic Sans MS', Arial, Helvetica, sans-serif;
+    color:royalblue;
+}
+
 footer {
   position: absolute;
   bottom: 0;
