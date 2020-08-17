@@ -7,6 +7,18 @@ content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
 
+header
+{
+    background: white;
+    width: 100%;
+    height: 110px;
+    padding-bottom: 10px;
+    position:fixed;
+    top: 0;
+    left: 50%;           /* Start at 50% of browser window */
+    margin-left: -325px; /* Go half of width to the left, centering the element */
+}
+
 nav {
   padding-left: 0;
   margin-bottom: 0;
