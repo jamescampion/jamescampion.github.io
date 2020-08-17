@@ -21,8 +21,8 @@ ul {
  }
 
  ul li a {
-     color:white;
-     background:lightgrey;
+     color:black;
+     background:white;
      padding:20px 20px;
      margin:0 auto;
      font-weight:bold;
@@ -39,7 +39,7 @@ ul {
      border: 0px solid #560E00;
  }
  ul li a:hover {
-     color:navy;
+     color:white;
      background:lightgrey;
      font-weight:bold;
      text-decoration:none;
@@ -119,4 +119,14 @@ footer {
   background-color: white;
   color: black;
   text-align:left;
+}
+
+body {
+ color:black;
+ background:white;
+ padding:100px 100px;
+ font-weight:none;
+ font-size:12px;
+ font-family: "Times New Roman", Times, serif;
+ text-decoration:none;
 }
