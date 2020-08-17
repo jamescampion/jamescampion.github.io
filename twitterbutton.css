@@ -19,3 +19,26 @@
   background: #55ACEE;
   color: white;
 }
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<ul><li><a href="https://twitter.com/CDisinterest" class ="fa fa-twitter"></a></li></ul>
+
+
+/* Style all font awesome icons */
+.fa {
+  padding:20px 20px;
+  font-size:15px;
+  font-weight:bold;
+  width:auto;
+  text-align: center;
+  text-decoration: none;
+  background: #55ACEE;
+  color: white;
+  margin:0 auto;
+  height:10px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border: 0px solid #560E00;
+  display:block;
+}
