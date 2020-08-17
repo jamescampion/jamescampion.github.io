@@ -20,7 +20,7 @@ nav  li {
     position:relative;
     display:inline-block;
     list-style-type: none;
-    font-family:"Garamond";
+    font-family:"Comic Sans MS";
     color:"royal blue";
     padding:0px;
 }
@@ -28,7 +28,7 @@ nav  li {
 nav li > a {
     position: relative;
     display: inline-block;
-    padding: 0px 0px;
+    padding: 4px 6px;
 }
 
 nav > li > a:hover,
