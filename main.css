@@ -18,13 +18,9 @@ ul {
  }
  ul li {
      display: inline-block;
-     width:100px;
-     float:left;
+
  }
 
- ul > li > ul { display:none; }
- ul > li:hover > ul { display:block; }
- ul > li > ul { padding-left:10px; }
 
  ul li a {
      color:royalblue;
@@ -67,7 +63,6 @@ ul {
      -moz-border-radius:5px;
      border: 0px solid #000000;
  }
-
 
  h1 li {
      display: inline-block;
