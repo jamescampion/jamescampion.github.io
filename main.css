@@ -19,7 +19,6 @@ footer {
 }
 
 header {
-    position:absolute;
     display:block;
     top:0;
     width:100%;
@@ -64,11 +63,6 @@ nav > li > a:hover,
 nav > li > a:focus {
     text-decoration: none;
     background-color: white;
-}
-
-body {
-    position: relative;
-}
 
 a:link{
   color:blue;
@@ -98,7 +92,6 @@ a:active{
 }
 
 .nav-centered a {
-  position: fixed;
   top:50%;
   left:50%;
   float: none;
